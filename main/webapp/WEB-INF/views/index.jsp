@@ -1,6 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +14,6 @@
     <h1>index page</h1>
 
     <a href="list">목록보기</a><br>
-   
+    <a href="writeForm">글작성하기</a><br>
 </body>
 </html>

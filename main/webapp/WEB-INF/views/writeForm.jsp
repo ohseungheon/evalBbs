@@ -10,5 +10,13 @@
 </head>
 <body>
     <h1>writeForm page</h1>
+    <hr>
+    <form action="write" method="post">
+    제목 :<input type="text" name="title" ><br>
+    내용 :<input type="text" name="content" ><br>
+    작성자: <input type="text" name="writer" ><br>
+    작성날짜: <input type="text" name="regdate" ><br>
+    <input type="submit" value="등록하기" ><br>
+    </form>
 </body>
 </html>
