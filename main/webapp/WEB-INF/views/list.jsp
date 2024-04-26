@@ -22,13 +22,20 @@
     <c:forEach var="dto" items="${list}">
         <tr>
             <td>${dto.bno}</td>
+<<<<<<< HEAD
             <td><a href="detail?title=${dto.title}">${dto.title}</a></td>
+=======
+            <td>${dto.title}</td>
+>>>>>>> 63199a069a013e52a6a706871cc9578d706af47d
             <td>${dto.content}</td>
             <td>${dto.writer}</td>
             <td>${dto.regdate}</td>
         </tr>
     </c:forEach>
 </table>
+<<<<<<< HEAD
 <a href="writeForm">글작성하기</a><br>
+=======
+>>>>>>> 63199a069a013e52a6a706871cc9578d706af47d
 </body>
 </html>

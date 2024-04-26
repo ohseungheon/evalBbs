@@ -14,6 +14,10 @@
     <h1>index page</h1>
 
     <a href="list">목록보기</a><br>
+<<<<<<< HEAD
     <a href="writeForm">글작성하기</a><br>
+=======
+   
+>>>>>>> 63199a069a013e52a6a706871cc9578d706af47d
 </body>
 </html>

@@ -27,12 +27,12 @@
         <td>${dto.regdate}</td>
     </tr>
 
+    
+        
+    </table>
     <a href="delete?id=${dto.bno}">삭제</a>
     <a href="list">목록</a>
    
-        
-        </table>
-
 
 </body>
 </html>
