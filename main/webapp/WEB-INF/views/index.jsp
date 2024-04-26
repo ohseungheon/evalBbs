@@ -10,5 +10,8 @@
 </head>
 <body>
     <h1>index page</h1>
+
+    <a href="list">목록보기</a><br>
+   
 </body>
 </html>
