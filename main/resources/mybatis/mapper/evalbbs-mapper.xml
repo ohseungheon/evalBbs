@@ -5,7 +5,9 @@
 	<select id="getList" resultType="com.green.evalBbs.dto.EvalBbsDto">
 		SELECT * FROM evalbbs
 	</select>
-	
+	<select id="getDto">
+		SELECT * FROM simpleBBS Where title = #{title}
+	</select>
 	<insert id="write">
 		INSERT INTO evalbbs VALUES(null,#{dto.title},#{dto.content},#{dto.writer},#{dto.regdate})
 	</insert>
