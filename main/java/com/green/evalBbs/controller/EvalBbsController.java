@@ -47,4 +47,11 @@ public class EvalBbsController {
 		dao.write(dto);
 		return "redirect:list";
 	}
+	
+	@GetMapping("/delete")
+	public String delete(@RequestParam("id") String id) {
+		dao.delete(id);
+		return "redirect:list";
+		
+	}
 }

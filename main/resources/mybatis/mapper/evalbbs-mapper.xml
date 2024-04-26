@@ -1,7 +1,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.green.evalBbs.dao.IEvalBbsDao">
-	
-	
+
+
 	<select id="getList" resultType="com.green.evalBbs.dto.EvalBbsDto">
 		SELECT * FROM evalbbs
 	</select>
@@ -10,7 +10,12 @@
 		SELECT * FROM evalbbs Where title = #{title}
 	</select>
 	<insert id="write">
-		INSERT INTO evalbbs VALUES(null,#{dto.title},#{dto.content},#{dto.writer},#{dto.regdate})
+		INSERT INTO evalbbs
+		VALUES(null,#{dto.title},#{dto.content},#{dto.writer},#{dto.regdate})
 	</insert>
 
+	<delete id="delete">
+		delete from evalbbs Where bno = #{bno}
+
+	</delete>
 </mapper>
